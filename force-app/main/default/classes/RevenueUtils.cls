@@ -1,5 +1,5 @@
 public class RevenueUtils {
-     public static Decimal getTripleRevenue(Decimal value) {
-        return value * 3;
+    public static Decimal getDoubleRevenue(Decimal value) {
+        return value * 2;
     }
 }
