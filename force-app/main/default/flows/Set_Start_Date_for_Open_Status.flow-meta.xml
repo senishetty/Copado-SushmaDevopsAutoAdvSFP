@@ -35,10 +35,7 @@
         <locationX>176</locationX>
         <locationY>323</locationY>
         <inputAssignments>
-            <field>Start_Date__c</field>
-            <value>
-                <elementReference>currentDate</elementReference>
-            </value>
+            <field>CloseDate</field>
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
