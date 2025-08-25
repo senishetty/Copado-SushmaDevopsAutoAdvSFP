@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+    <classAccesses>
+        <apexClass>RevenueUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RevenueUtilsTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -26,7 +35,11 @@
         <field>Product2.Product_Category__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <loginHours n1:nil="true"></loginHours>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.Account_Record</recordType>
+    </layoutAssignments>
+    <loginHours n1:nil="true" />
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Account_Record</recordType>

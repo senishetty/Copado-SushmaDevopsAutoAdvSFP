@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Training PS</label>
-    <hasActivationRequired>false</hasActivationRequired>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Customer_Code__c</field>
@@ -17,4 +15,6 @@
         <field>Account.Zone__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Training PS</label>
 </PermissionSet>
