@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Record</fullName>
+    <active>true</active>
+    <label>Account Record</label>
+    <picklistValues>
+        <picklist>Region2__c</picklist>
+        <values>
+            <fullName>North</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Zone__c</picklist>
+        <values>
+            <fullName>Zone 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zone 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
